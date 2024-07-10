@@ -1,0 +1,38 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+.form label {
+  color: aliceblue;
+  float: left;
+}
+
+.form button {
+  color: aliceblue;
+  padding: 20px;
+  background-color: cadetblue;
+  border: solid;
+  border-radius: 20px;
+}
+
+.form input ,select,textarea {
+  margin-left: 2em;
+  padding: 10px;
+  float: right;
+  width: 15em;
+  height: 3em;
+}
+
+.form select{
+    padding: 10px ;
+}
+
+.form input[type="radio"] {
+  width: 5em;
+  height: 1em;
+    float: left;
+ 
+}
+
